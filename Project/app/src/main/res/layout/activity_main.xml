@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="bottom">
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/search"
+        android:text="Поиск"
+        android:stateListAnimator="@null"
+        android:textSize="9sp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="-4dp"
+        android:layout_marginRight="-9dp"
+        android:layout_marginLeft="-5dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/playlist_button"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:drawableTop ="@drawable/playlist"
+        android:text="Плейлист"
+        android:layout_marginBottom="-4dp"
+        android:stateListAnimator="@null"
+        android:textSize="9sp"
+        android:textAllCaps="false"
+        />
+    <ImageButton
+        android:id="@+id/little_button"
+        android:layout_weight="0.6"
+        android:layout_height="80dp"
+        android:layout_width="0dp"
+        android:layout_marginRight="-17dp"
+        android:layout_marginLeft="-17dp"
+        android:src="@drawable/tongue"
+        android:background="@drawable/not_oval_button"
+        android:layout_gravity="bottom"
+        />
+    <Button
+        android:id="@+id/downloads_button"
+        android:layout_width="0dp"
+        android:layout_marginBottom="-4dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:drawableTop ="@drawable/downloads"
+        android:text="Загрузки"
+        android:textSize="9sp"
+        android:textAllCaps="false"
+        android:stateListAnimator="@null"
+        />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-4dp"
+        android:stateListAnimator="@null"
+        android:drawableTop ="@drawable/settings"
+        android:text="Настройки"
+        android:gravity="center"
+        android:textSize="9sp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:layout_marginRight="-4dp"
+        android:layout_marginLeft="-9dp"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
+    <ImageButton
+        android:id="@+id/big_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/button"
+        android:background="@drawable/oval_button"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Нажмите Mopchik"
+        android:layout_gravity="center_horizontal"
+        android:textSize="31sp"
+        android:layout_marginTop="28dp"
+        android:textColor="#000000"
+        android:id="@+id/text"
+        />
+</FrameLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.mopchik.mopchik.MusicFragment"
+    android:id="@+id/activity_music">
+
+
+    <ListView
+        android:id="@+id/song_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+    </ListView>
+
+    <!--<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:id="@+id/rel"
+        android:clickable="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:id="@+id/name"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp"
+            android:layout_centerVertical="true"
+            android:text="Name and so and absolutely"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/author"
+            android:layout_below="@id/name"
+            android:layout_alignLeft="@id/name"
+            android:textSize="10dp"
+            android:text="Author and so and absolutely"/>
+
+        &lt;!&ndash;<ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/previous"
+            android:id="@+id/previous"
+            android:layout_toLeftOf="@id/play"
+            android:layout_alignTop="@id/play"/>&ndash;&gt;
+
+        <ImageButton
+            android:background="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play"
+            android:id="@+id/play"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="40dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageButton
+            android:background="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pause"
+            android:id="@+id/pause"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="40dp"
+            android:layout_centerVertical="true"/>
+
+        &lt;!&ndash;<ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+            android:id="@+id/next"
+            android:layout_toRightOf="@id/play"
+            android:layout_alignTop="@id/play"/>&ndash;&gt;
+
+    </RelativeLayout>-->
+
+</RelativeLayout>

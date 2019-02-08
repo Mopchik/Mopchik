@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mopchik.mopchik.ControllerActivity"
+    android:id="@+id/activity_controller">
+
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/down"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:id="@+id/down"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginBottom="150dp"
+        android:id="@+id/image"
+        android:src="@drawable/image" />
+
+
+</RelativeLayout>

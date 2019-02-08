@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mopchik.mopchik.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <!--
+        <ImageView
+            android:src="@drawable/downloads"
+            android:id="@+id/img_downloads"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:src="@drawable/search"
+            android:id="@+id/img_search"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:src="@drawable/music"
+            android:id="@+id/img_music"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:src="@drawable/settings"
+            android:id="@+id/img_settings"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+    -->
+
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/colorPrimary"
+            app:itemIconTint="@color/bottom_background_color"
+            app:itemTextColor="@color/bottom_background_color"
+            app:menu="@menu/menu_bottom_navigation"
+            />
+    </LinearLayout>
+    <!--
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Нажмите Mopchik"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:textSize="31sp"
+            android:textColor="#000000"
+            android:id="@+id/text"></TextView>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button"
+            android:background="@drawable/oval_button"
+            android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:dividerPadding="3dp"
+        android:showDividers="middle"
+        >
+
+        <Button
+            android:id="@+id/downloads_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:drawableTop ="@drawable/downloads"
+            android:text="Мопчик"
+            android:textSize="11sp"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:id="@+id/search_button"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/search"
+            android:text="Поиск"
+            android:textSize="11sp"
+            android:textAllCaps="false"
+            android:ems="10"
+            android:orientation="horizontal"
+            />
+        <Button
+            android:id="@+id/playlist_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableTop ="@drawable/playlist"
+            android:text="Музыка"
+            android:textSize="11sp"
+            android:textAllCaps="false"
+            android:ems="10"
+            />
+
+
+        <Button
+            android:id="@+id/settings_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop ="@drawable/settings"
+            android:text="Настройки"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+    </FrameLayout>-->
